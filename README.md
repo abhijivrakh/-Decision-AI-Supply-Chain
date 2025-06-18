@@ -30,3 +30,39 @@ SupplyChainGPT is an end-to-end AI-powered assistant designed to support supply 
 
 ## 🧩 Project Structure
 
+
+---
+
+## 📥 Sample Input CSV Format
+
+| invoice_id | supplier_name | delay_days | cost_impact | region | category |
+|------------|----------------|------------|-------------|--------|----------|
+| INV001     | Supplier A     | 5          | 1200.00     | North  | Electronics |
+| INV002     | Supplier B     | 0          | 0.00        | South  | Furniture  |
+
+---
+
+## 🔎 Query Types You Can Ask
+
+### 🔍 RAG-Based:
+- "What is the overall supplier performance?"
+- "Summarize delays in the North region."
+
+### ⚠️ Rule-Based:
+- "Show flagged invoices."
+- "Which suppliers violated the delay threshold?"
+
+### 📊 Insight-Based:
+- "What are the top 5 suppliers by cost impact?"
+- "Which region has the highest delay?"
+
+### 🧠 Custom Logic:
+- "Which supplier has the most delays?"
+- "How many invoices are delayed by more than 10 days?"
+- "How to improve supply chain performance?"
+
+---
+
+
+
+
