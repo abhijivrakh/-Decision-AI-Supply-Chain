@@ -1,9 +1,11 @@
-openai
-langchain
-faiss-cpu
+git+https://github.com/langchain-ai/langchain.git@v0.1.16
+git+https://github.com/langchain-ai/langchain-community.git@v0.0.36
+faiss-cpu==1.7.4
+sentence-transformers==2.6.1
+torch==2.1.0
+numpy==1.24.4
 streamlit
 python-dotenv
 pandas
 matplotlib
-
-
+transformers==4.41.1
